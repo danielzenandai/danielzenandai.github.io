@@ -1,0 +1,60 @@
+p{
+    color:black;
+}
+
+.conan{
+    background-color: blueviolet;
+}
+
+.conan2{
+    background-color: blue;
+}
+
+.conan3{
+    background-color: palevioletred;
+}
+
+a.daniellink{
+    padding: 0px 30px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+
+a.daniellink:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+div.danieldivgrey{
+    background-color: rgb(222, 233, 254);
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid cornflowerblue;
+    width: 95%;
+    margin: 10px auto;
+    overflow: auto;
+
+}
+
+h4.danielsmallh4{
+    font-size: 18px;
+    color:rgb(37, 126, 228);
+    font-family: sans-serif;
+    text-transform:none;
+}
+
+.danielcrop{
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 10px 5px;
+    border-radius: 10px;
+}
+
+.danielcallmebg{
+    background-color: rgb(222, 233, 254);
+    background-image: url("../assets/bg/01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
