@@ -58,3 +58,16 @@ h4.danielsmallh4{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.danielserif{
+    font-family: "Noto Serif TC", serif;
+}
+
+.danielcenter{
+    text-align: center;
+}
+
+.danielhl{
+    color:red;
+    font-weight: 900;
+}
