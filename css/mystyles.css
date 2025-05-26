@@ -1,5 +1,5 @@
 p{
-    color:black;
+    color:#071739;
 }
 
 a.daniellink{
@@ -18,7 +18,7 @@ div.danieldivgrey{
     padding: 30px;
     border-radius: 10px;
     box-sizing: border-box;
-    border: 1px solid #071739;
+    border: 1px solid #a68868;
     width: 95%;
     margin: 10px auto;
     overflow: auto;
@@ -83,12 +83,24 @@ h4.danielsmallh4{
 }
 
 .danieldivtransparent{
-    background-color: rgba(205, 213, 219, 0.6); /* 原色轉 rgba，加上透明度 0.4 */
+    background-color: rgba(227, 195, 157, 0.2); /* 原色轉 rgba，加上透明度 0.4 */
     padding: 30px;
     border-radius: 10px;
     box-sizing: border-box;
-    border: 1px solid #071739;
+    border: 1px solid rgba(227, 195, 157, 0.1);
     width: 95%;
     margin: 10px auto;
     overflow: auto;
 }
+
+.danieldivtransparent2{
+    background-color: rgba(227, 195, 157, 0.6); /* 原色轉 rgba，加上透明度 0.4 */
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(227, 195, 157, 0.1);
+    width: 95%;
+    margin: 10px auto;
+    overflow: auto;
+}
+  
