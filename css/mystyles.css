@@ -2,18 +2,6 @@ p{
     color:black;
 }
 
-.conan{
-    background-color: blueviolet;
-}
-
-.conan2{
-    background-color: blue;
-}
-
-.conan3{
-    background-color: palevioletred;
-}
-
 a.daniellink{
     padding: 0px 30px;
     margin-left: 10px;
@@ -21,25 +9,24 @@ a.daniellink{
 }
 
 a.daniellink:hover{
-    background-color: cornflowerblue;
+    background-color: #071739;
     color: white;
 }
 
 div.danieldivgrey{
-    background-color: rgb(222, 233, 254);
+    background-color:#cdd5db;
     padding: 30px;
     border-radius: 10px;
     box-sizing: border-box;
-    border: 1px solid cornflowerblue;
+    border: 1px solid #071739;
     width: 95%;
     margin: 10px auto;
     overflow: auto;
-
 }
 
 h4.danielsmallh4{
     font-size: 18px;
-    color:rgb(37, 126, 228);
+    color:#4b6382;
     font-family: sans-serif;
     text-transform:none;
 }
@@ -52,15 +39,34 @@ h4.danielsmallh4{
     border-radius: 10px;
 }
 
-.danielcallmebg{
-    background-color: rgb(222, 233, 254);
-    background-image: url("../assets/bg/01.jpg");
+.danielcallmebg {
+    position: relative;
+    background-image: url("../assets/bg/01.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 400px; /* 或自己設定高 */
+    overflow: hidden;
+}
+
+.danielcallmebg .overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* 淺色半透明遮罩 */
+    z-index: 1;
+}
+
+.danielcallmebg .content {
+    position: relative;
+    z-index: 2;
+    padding: 30px;
+    color: #000;
 }
 
 .danielserif{
     font-family: "Noto Serif TC", serif;
+    color: #071739;
 }
 
 .danielcenter{
@@ -68,6 +74,21 @@ h4.danielsmallh4{
 }
 
 .danielhl{
-    color:red;
+    color:#370220;
     font-weight: 900;
+}
+
+.h4danielcolor{
+    color:#4b6382
+}
+
+.danieldivtransparent{
+    background-color: rgba(205, 213, 219, 0.6); /* 原色轉 rgba，加上透明度 0.4 */
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid #071739;
+    width: 95%;
+    margin: 10px auto;
+    overflow: auto;
 }
